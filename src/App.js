@@ -8,6 +8,7 @@ import Description from './Description';
 
 //Crear un componente 
 function Mensaje (){
+
  return(
   <h1>creacion de compoente</h1>
 
@@ -19,8 +20,10 @@ function App() {
 const a = 5
 const b= 7
 const mensaje = "Hola mundo"
+
   return (
     <div className="App">
+      
    <h1> TITULO DE LA App </h1>
 <strong>TRABAJADO EN ELLO </strong>
 
