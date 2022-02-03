@@ -16,7 +16,7 @@ const App = () => {
   const exercises2 = 7
   const part3 = 'State of a component'
   const exercises3 = 14
-
+  const hola = "hola"
   return (
     <div>
       <Header course = {course}/>
@@ -31,6 +31,7 @@ const App = () => {
       <p>
       <Content parte3 = {part3} /> 
        < Content exercises3= {exercises3}/>
+       {hola}
       </p>
       <p>Number of exercises <Total  total=  {exercises1 + exercises2 + exercises3} /> </p>
     </div>
